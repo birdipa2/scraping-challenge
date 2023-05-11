@@ -24,7 +24,7 @@ Instructions
 >>
 >>Two methods are provided for extracting all the text elements from the website:
 >>
->>Find all elements with the class col-md-12 and print the text content of each element.
+>>Find all elements with the class col-md-12 and print the text content of each element. Using print(text) instead of print(text.text.strip()) reveals all available classes within the webpage, which can aid in the scraping process.
 >>
 >>Use the get_text() method from the Beautiful Soup object to extract all text elements.
 >>
